@@ -50,8 +50,10 @@ next-env.d.ts
 /dist/
 /.wrangler/
 /outputs/
-/work/
-/work/migration-reports/*.json
+# Work artifacts are local-only; retain versioned migration utilities.
+/work/*
+!/work/*.mjs
+/work/migration-reports/
 /.venv/
 # Operational data, uploads, attachments, and backups
 /data/
