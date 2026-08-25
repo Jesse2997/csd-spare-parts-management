@@ -1,0 +1,74 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+credentials.json
+service-account*.json
+
+# vercel
+.vercel
+
+# typescript
+next-env.d.ts
+/dist/
+/.wrangler/
+/outputs/
+/work/
+/work/migration-reports/*.json
+/.venv/
+# Operational data, uploads, attachments, and backups
+/data/
+/imports/
+/uploads/
+/attachments/
+/backups/
+/exports/
+/originals/
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.zip
+__pycache__/
+*.py[cod]
+.worktrees/

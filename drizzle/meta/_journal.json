@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1785663737100,
+      "tag": "0000_legal_marrow",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1785666745444,
+      "tag": "0001_import-version-status",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1785674658394,
+      "tag": "0002_broad_runaways",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1785682889997,
+      "tag": "0003_inventory_identity",
+      "breakpoints": true
+    }
+  ]
+}

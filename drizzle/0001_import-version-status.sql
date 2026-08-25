@@ -1,0 +1,1 @@
+ALTER TABLE `import_versions` ADD `status` text DEFAULT 'active' NOT NULL;
